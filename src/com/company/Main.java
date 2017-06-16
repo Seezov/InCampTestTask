@@ -4,6 +4,14 @@ import java.util.ArrayList;
 
 public class Main {
 
+    public static void makeAction(Animal currentAnimal)
+    {
+        if(currentAnimal.makeSound() == "")
+            System.out.println(currentAnimal.getName() + " isn't happy ");
+        else
+            System.out.println(currentAnimal.getName() + " goes " + currentAnimal.makeSound());
+    }
+
     public static void main(String[] args) {
 
         ArrayList<Animal> animals = new ArrayList<>();
@@ -18,25 +26,13 @@ public class Main {
         for (int i = 0; i < animals.size(); i++)
         {
             currentAnimal = animals.get(i);
-            if(currentAnimal.makeSound() == "")
-                System.out.println(currentAnimal.getName() + " isn't happy ");
-            else
-                System.out.println(currentAnimal.getName() + " goes " + currentAnimal.makeSound());
-        }
-
-        for (int i = 0; i < animals.size(); i++)
-        {
-            currentAnimal = animals.get(i);
-            // Feed animals until they are happy
+            makeAction(currentAnimal);
+            // Feed the current animal until it is happy
             do
             {
                 currentAnimal.feed();
             }while (currentAnimal.makeSound() == "");
-
-            if(currentAnimal.makeSound() == "")
-                System.out.println(currentAnimal.getName() + " isn't happy ");
-            else
-                System.out.println(currentAnimal.getName() + " goes " + currentAnimal.makeSound());
+            makeAction(currentAnimal);
         }
     }
 }
