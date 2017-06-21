@@ -10,6 +10,7 @@ public class Animal {
     //Encapsulation
     private byte happinessLevel = 0;
     private static final byte HAPPINESS_LEVEL_INCREASE = 2;
+    private static final byte HAPPINESS_LEVEL_DECREASE = 3;
     private static final byte MAX_HAPPINESS_LEVEL = 10;
 
     Animal(String name)
@@ -44,6 +45,13 @@ public class Animal {
     private void Action()
     {
         // Do some kind of action
+    }
+
+    public void actionWasPerformed()
+    {
+        happinessLevel -= HAPPINESS_LEVEL_DECREASE;
+        if(happinessLevel < 0)
+            happinessLevel = 0;
     }
 
     public void makeAction()

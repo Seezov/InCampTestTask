@@ -15,6 +15,9 @@ public class Cat extends Animal {
     {
         // Do a jump in real life
 
+        // Decreasing happiness level after action
+        actionWasPerformed();
+
         // Notify the user about it
         System.out.println(getName() + " jumped ");
     }

@@ -15,6 +15,9 @@ public class Dog extends Animal {
     {
         // Bring a stick to the owner in real life
 
+        // Decreasing happiness level after action
+        actionWasPerformed();
+
         // Notify the user about it
         System.out.println(getName() + " brought you a stick ");
     }
