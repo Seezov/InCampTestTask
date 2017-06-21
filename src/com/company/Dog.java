@@ -11,11 +11,22 @@ public class Dog extends Animal {
         super(name);
     }
 
-    public String makeSound()
+    private void BringAStick()
+    {
+        // Bring a stick to the owner
+        System.out.println(getName() + " brought you a stick ");
+    }
+
+    private void Bark()
+    {
+        System.out.println(getName() + " barked ");
+    }
+
+    public void makeAction()
     {
         if(getHappinessLevel() >= 8)
-            return "Woof";
+            BringAStick();
         else
-            return "";
+            Bark();
     }
 }

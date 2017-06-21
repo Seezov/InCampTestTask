@@ -33,12 +33,23 @@ public class Animal {
         happinessLevel += HAPPINESS_LEVEL_INCREASE;
     }
 
-    public String makeSound()
+    public boolean isAnimalHappy()
     {
         if(happinessLevel >= 8)
-            return "'Happy Sound'";
+            return true;
         else
-            return "";
+            return false;
+    }
+
+    private void Action()
+    {
+        // Do some kind of action
+    }
+
+    public void makeAction()
+    {
+        if(happinessLevel >= 8)
+            Action();
     }
 
 }

@@ -4,13 +4,6 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void makeAction(Animal currentAnimal)
-    {
-        if(currentAnimal.makeSound() == "")
-            System.out.println(currentAnimal.getName() + " isn't happy ");
-        else
-            System.out.println(currentAnimal.getName() + " goes " + currentAnimal.makeSound());
-    }
 
     public static void main(String[] args) {
 
@@ -21,18 +14,17 @@ public class Main {
         animals.add(new Dog("Otis"));
 
         Animal currentAnimal;
-        //Polymorphism is represented by "makeSound" method .
-        //User doesn't know to which animal object he is referring to until this animal makes a sound.
+        //Polymorphism is represented by "makeAction" method .
         for (int i = 0; i < animals.size(); i++)
         {
             currentAnimal = animals.get(i);
-            makeAction(currentAnimal);
+            currentAnimal.makeAction();
             // Feed the current animal until it is happy
             do
             {
                 currentAnimal.feed();
-            }while (currentAnimal.makeSound() == "");
-            makeAction(currentAnimal);
+            }while (!currentAnimal.isAnimalHappy() );
+            currentAnimal.makeAction();
         }
     }
 }

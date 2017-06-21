@@ -11,11 +11,22 @@ public class Cat extends Animal {
         super(name);
     }
 
-    public String makeSound()
+    private void Jump()
+    {
+        // Do a jump
+        System.out.println(getName() + " jumped ");
+    }
+
+    private void Hiss()
+    {
+        System.out.println(getName() + " hissed ");
+    }
+
+    public void makeAction()
     {
         if(getHappinessLevel() >= 8)
-            return "Meow";
+            Jump();
         else
-            return "";
+            Hiss();
     }
 }
