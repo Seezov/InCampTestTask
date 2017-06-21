@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5525b582-67e1-4339-85d8-00d367486bc4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Animal.java" afterPath="$PROJECT_DIR$/src/com/company/Animal.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Cat.java" afterPath="$PROJECT_DIR$/src/com/company/Cat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Dog.java" afterPath="$PROJECT_DIR$/src/com/company/Dog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,10 +16,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="155">
               <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
               <folding />
             </state>
@@ -42,28 +39,24 @@
       <file leaf-file-name="Cat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            <state relative-caret-position="233">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Dog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,9 +89,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Animal.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Dog.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Cat.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Dog.java" />
       </list>
     </option>
   </component>
@@ -469,8 +462,6 @@
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,8 +473,6 @@
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,8 +500,6 @@
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -524,34 +511,6 @@
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -566,9 +525,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
+        <state relative-caret-position="155">
           <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

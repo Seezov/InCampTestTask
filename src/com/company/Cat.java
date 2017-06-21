@@ -13,12 +13,17 @@ public class Cat extends Animal {
 
     private void Jump()
     {
-        // Do a jump
+        // Do a jump in real life
+
+        // Notify the user about it
         System.out.println(getName() + " jumped ");
     }
 
     private void Hiss()
     {
+        // Hiss in real life
+
+        // Notify the user about it
         System.out.println(getName() + " hissed ");
     }
 

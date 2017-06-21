@@ -13,12 +13,17 @@ public class Dog extends Animal {
 
     private void BringAStick()
     {
-        // Bring a stick to the owner
+        // Bring a stick to the owner in real life
+
+        // Notify the user about it
         System.out.println(getName() + " brought you a stick ");
     }
 
     private void Bark()
     {
+        // Bark in real life
+
+        // Notify the user about it
         System.out.println(getName() + " barked ");
     }
 
